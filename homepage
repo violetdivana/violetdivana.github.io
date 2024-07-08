@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Divana</title>
+    <link rel="icon" type="image" href="/favicon.png">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  
+  
+<body>
+  <style>
+  .item-image{ aspect-ratio:2/4; }
+  </style>
+  
+<div id="container">
+      <header>
+      <input type="checkbox" id="description-toggle"/>
+      <label for="description-toggle" onclick="this.classList.toggle('active');">
+        <div id="title">
+          <div class="title-text"style="font-size:30px""font-family:Gill sans">Violetta Divana</div>
+          <div class="title-arrow">?</div>
+        </div>
+        </label>
+        <div class="description">
+          Visual Artist based in Yogyakarta. Current student at Indonesian Institute of Arts (ISI Yogyakarta).
+          <br>
+          <br>
+          <a href="https://www.instagram.com/oldsoulboi_/">Instagram</a>
+          <br>
+          <a href="https://ko-fi.com/vdivana">Support me with Ko-fi !</a>
+        </div>
+      </header>
+      
+      <hr>
+      
+      <div id="gallery">
+        <a href="https://violetdivana.neocities.org/Illustrations">
+          <div class="item-image"><img src="https://pbs.twimg.com/media/GQ2COcZbcAAOOE0?format=jpg&name=large"></div>
+          <div class="item-title">ILLUSTRATIONS</div>
+        </a>
+        <a href="https://violetdivana.neocities.org/Paintings">
+          <div class="item-image"><img src="https://pbs.twimg.com/media/GKqQpPSaIAA3waF?format=jpg&name=large"></div>
+          <div class="item-title">PAINTINGS</div>
+        </a>
+        <a href="https://violetdivana.neocities.org/AcademicWorks">
+          <div class="item-image"><img src="https://pbs.twimg.com/media/GFWO7o-bkAAfAbh?format=jpg&name=large"></div>
+          <div class="item-title">ACADEMICS</div>
+        </a>
+       
+        
+      </div>
+    </div>
+  <div id="container">
+      <header>
+        <a id="title" href="/">
+          <div class="title-text">About</div>
+          <div class="back">X</div>
+        </a>
+      </header>
+      
+      <hr>
+      
+      <div id="page-about">
+        <div class="img-container">
+          <img src="https://i.pinimg.com/736x/34/02/e3/3402e3e450e6fcfb855f9b5c0883f8f5.jpg"style="width:300px;height:300px;">
+        </div>
+        
+        <div class="caption">
+          <hr class="page-divider">
+          Violetta Divana Mulyono was born in Bandung on 28th of April 2005 but grew up in South Tangerang. She currently studies painting at Indonesian Institute of Arts (ISI), Yogyakarta.
+          <p><b>Group Exhibitions</b></p>
+          <p>2023</p>
+          <p>___ "Orat-Oret" at Palakali Creative, Depok.</p>
+          <p>2024</p>
+          <p>___ "Maitri" visual art exhibition by Roso Werno, Yogyakarta.</p>
+          <p><b>Contacts</b></p>
+          <p>violettadivana@gmail.com</p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
